@@ -14,9 +14,7 @@ const Detail = () => {
     () => apiClient.fetchPetById(petId || ""),
     {
       enabled: !!petId,
-      onSuccess: () => {
-        showToast({ message: "Pet Data Fetched", type: "SUCCESS" });
-      },
+      onSuccess: () => {},
       onError: () => {
         showToast({ message: "Error Fetching Pet Data", type: "ERROR" });
       },

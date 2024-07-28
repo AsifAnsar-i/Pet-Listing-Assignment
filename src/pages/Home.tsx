@@ -6,11 +6,11 @@ import { useAppContext } from "../contexts/AppContext";
 
 const Home = () => {
   const { showToast } = useAppContext();
-  const { data: petData, isLoading } = useQuery("fetchQuery", () =>
-    apiClient.fetchPets(), {
-      onSuccess: () => {
-        showToast({ message: "Pet Data Fetched", type: "SUCCESS" });
-      },
+  const { data: petData, isLoading } = useQuery(
+    "fetchQuery",
+    () => apiClient.fetchPets(),
+    {
+      onSuccess: () => {},
       onError: () => {
         showToast({ message: "Error Fetching Pet Data", type: "ERROR" });
       },

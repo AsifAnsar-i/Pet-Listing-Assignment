@@ -31,9 +31,7 @@ const Search = () => {
     () => apiClient.searchPets(selectedType ? filterParams : searchParams),
     {
       keepPreviousData: true,
-      onSuccess: () => {
-        showToast({ message: "Pet data Fetched", type: "SUCCESS" });
-      },
+      onSuccess: () => {},
       onError: () => {
         showToast({ message: "Error Fetching Pet Data", type: "ERROR" });
       },
