@@ -11,11 +11,11 @@ echo '# Pet-Listing
 - View detailed information about each pet
 - Responsive design for various screen sizes
 
-echo '## Project Structure
+## Project Structure
 
-Here\'s a brief overview of the project structure:
+Here's a brief overview of the project structure:
 
-\`\`\`plaintext
+```plaintext
 src/
 ├── components/                # Reusable React components
 │   ├── DetailCard.tsx          # Component to display detailed pet information
@@ -37,8 +37,6 @@ src/
 ├── App.tsx                    # Main application component
 ├── index.css                  # Global styles
 └── index.tsx                  # Entry point of the application
-\`\`\`
-' > README.md
 
 
 ## Setup and Running the Project
