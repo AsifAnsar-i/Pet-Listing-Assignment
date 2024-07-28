@@ -32,7 +32,7 @@ const Search = () => {
     {
       keepPreviousData: true,
       onSuccess: () => {
-        showToast({ message: "Pet Data Fetched", type: "SUCCESS" });
+        showToast({ message: "Pet data Fetched", type: "SUCCESS" });
       },
       onError: () => {
         showToast({ message: "Error Fetching Pet Data", type: "ERROR" });
