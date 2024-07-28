@@ -11,10 +11,6 @@ echo '# Pet-Listing
 - View detailed information about each pet
 - Responsive design for various screen sizes
 
-## Project Structure
-
-Here'\''s a brief overview of the project structure:
-
 echo '## Project Structure
 
 Here\'s a brief overview of the project structure:
@@ -43,6 +39,7 @@ src/
 └── index.tsx                  # Entry point of the application
 \`\`\`
 ' > README.md
+
 
 ## Setup and Running the Project
 
