@@ -15,7 +15,6 @@ echo '# Pet-Listing
 
 Here'\''s a brief overview of the project structure:
 
-\`\`\`bash
 src/
 ├── components/                # Reusable React components
 │   ├── DetailCard.tsx          # Component to display detailed pet information
@@ -37,30 +36,23 @@ src/
 ├── App.tsx                    # Main application component
 ├── index.css                  # Global styles
 └── index.tsx                  # Entry point of the application
-\`\`\`
 
 ## Setup and Running the Project
 
 1. **Clone the repository:**
 
-   \`\`\`bash
    git clone https://github.com/your-repo/pet-listing.git
    cd pet-listing
-   \`\`\`
 
 2. **Install dependencies:**
 
    Make sure you have [Node.js](https://nodejs.org/) installed. Then, run:
 
-   \`\`\`bash
    npm install
-   \`\`\`
 
 3. **Run the development server:**
 
-   \`\`\`bash
    npm run dev
-   \`\`\`
 
    This will start the development server at \`http://localhost:5173\`, where you can view the application.
 
@@ -68,9 +60,7 @@ src/
 
    To create a production build, run:
 
-   \`\`\`bash
    npm run build
-   \`\`\`
 
    The build files will be located in the \`dist/\` directory.
 
