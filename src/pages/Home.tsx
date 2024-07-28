@@ -8,6 +8,9 @@ const Home = () => {
   const { showToast } = useAppContext();
   const { data: petData, isLoading } = useQuery("fetchQuery", () =>
     apiClient.fetchPets(), {
+      onSuccess: () => {
+        showToast({ message: "Pet Data Fetched", type: "SUCCESS" });
+      },
       onError: () => {
         showToast({ message: "Error Fetching Pet Data", type: "ERROR" });
       },
