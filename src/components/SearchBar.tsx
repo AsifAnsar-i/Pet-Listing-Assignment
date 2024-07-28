@@ -14,7 +14,7 @@ const SearchBar = () => {
 
   const handleSubmit = (event: FormEvent) => {
     event.preventDefault();
-    search.saveSearchValues(animal, location, breed);
+    search.saveSearchValues(animal.toLowerCase(), location.toLowerCase(), breed.toLowerCase());
     navigate("/search");
   };
 
