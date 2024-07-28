@@ -15,6 +15,11 @@ echo '# Pet-Listing
 
 Here'\''s a brief overview of the project structure:
 
+echo '## Project Structure
+
+Here\'s a brief overview of the project structure:
+
+\`\`\`plaintext
 src/
 ├── components/                # Reusable React components
 │   ├── DetailCard.tsx          # Component to display detailed pet information
@@ -36,6 +41,8 @@ src/
 ├── App.tsx                    # Main application component
 ├── index.css                  # Global styles
 └── index.tsx                  # Entry point of the application
+\`\`\`
+' > README.md
 
 ## Setup and Running the Project
 
